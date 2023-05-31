@@ -6,9 +6,9 @@ using UnityEngine.SceneManagement;
 public class MenuEvent : MonoBehaviour
 {
     // Start is called before the first frame update
-    public void StartGame()
+    public void ToScene(int csene)
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(csene);
     }
 
     // Update is called once per frame

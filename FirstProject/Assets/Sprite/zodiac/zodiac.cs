@@ -4,6 +4,7 @@ using System.Net.Mime;
 using TMPro;
 using Unity.Collections.LowLevel.Unsafe;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class zodiac : MonoBehaviour
@@ -25,6 +26,13 @@ public class zodiac : MonoBehaviour
         }
     }
 
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(0);
+        }
+    }
 
     public void ClickZodiac(string key)
     {

@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NextScene.unity
     guid: 7cc24763e2410504f8ea927115f43420
+  - enabled: 1
+    path: Assets/Scenes/zodiac.unity
+    guid: 9e19d2e345eb11b4f867b7179b73aeb5
   m_configObjects: {}
