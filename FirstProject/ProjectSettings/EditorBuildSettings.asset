@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/zodiac.unity
     guid: 9e19d2e345eb11b4f867b7179b73aeb5
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: d6af99e21608d094bbdb8b7e0430e98f
+  - enabled: 1
+    path: Assets/Scenes/NextLevel.unity
+    guid: d9b29fc0bc18668448a828c2e5360931
   m_configObjects: {}

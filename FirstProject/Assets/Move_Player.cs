@@ -35,11 +35,11 @@ public class Move_Player : MonoBehaviour
         }
         else _animator.SetInteger("isRun", 0);
 
-        // Рух по горизонталі та вертикалі
+        
         Vector3 movement = new Vector3(moveHorizontal, 0f, moveVertical) * moveSpeed;
         rb.velocity = new Vector3(movement.x, rb.velocity.y, movement.z);
 
-        // Прижок
+      
 
         if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
